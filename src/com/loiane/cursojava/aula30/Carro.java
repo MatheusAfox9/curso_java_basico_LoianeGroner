@@ -1,4 +1,4 @@
-package aula30;
+package com.loiane.cursojava.aula30;
 
 public class Carro {
 
@@ -27,13 +27,20 @@ public class Carro {
         this.marca = marca;
         this.modelo = modelo;
         this.numPassageiros = numPassageiros;
+        System.out.println("Chamando o construtor com 3 parâmetros");
     }
 
 
     //Criado um constrututor que tá referenciado um modelo especidifco
     // Toda classe que criar com esse construtor será "Fiat, Ducato, 10 passageiros"
     public Carro(String marca, String modelo) {
-       this("Fiat", "Ducato", 10);
+       this(marca,modelo, 10);
+        System.out.println("Chamando o construtor com 2 parâmetros");
+
+    }
+
+    public Carro() {
+
     }
 
     void exibirAutonomia() {
