@@ -1,4 +1,5 @@
-package com.loiane.cursojava.exeraula25a27.Exer04;
+package com.loiane.cursojava.exeraula28a33.Exer04;
+
 
 import java.util.Scanner;
 
@@ -44,7 +45,7 @@ public class Teste {
             } else if (jogodaVelha.verificarGanhador('O')){
                 ganhou = true;
                 System.out.println("Parabéns, jogador 2 ganhou!");
-            } else if (jogodaVelha.jogada > 9){
+            } else if (jogodaVelha.getJogada() > 9){
                 ganhou = true;
                 System.out.println("Ninguém ganhou essa partida.");
             }

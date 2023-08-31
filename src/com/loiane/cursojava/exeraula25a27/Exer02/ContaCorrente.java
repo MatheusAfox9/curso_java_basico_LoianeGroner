@@ -1,4 +1,4 @@
-package com.loiane.cursojava.exeraulas25a27.Exer02;
+package com.loiane.cursojava.exeraula25a27.Exer02;
 
 public class ContaCorrente {
 
