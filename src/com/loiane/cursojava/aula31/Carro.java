@@ -6,7 +6,7 @@ public class Carro {
     String modelo;
     int numPassageiros;
     double capCombustivel;
-    double consumoCombustivel;
+  private double consumoCombustivel;
 
 
     void exibirAutonomia() {
